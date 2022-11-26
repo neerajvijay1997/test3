@@ -98,7 +98,7 @@ app.post(
     transporter.sendMail(
       {
         from: "neeraj.rtly@gmail.com",
-        to: "neeraj.rtly@gmail.com", // An array if you have multiple recipients.
+        to: ["neeraj.rtly@gmail.com","arun@deepfleet.com" ],// An array if you have multiple recipients.
         //cc:'second@domain.com',
         //bcc:'secretagent@company.gov',
         subject: "form data",
